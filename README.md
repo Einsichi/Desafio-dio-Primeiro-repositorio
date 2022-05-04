@@ -1,5 +1,5 @@
 # Desafio-dio Git/GitHub
 
-## Primeiro repositorio 
+## Primeiro repositório 
 
-Colocarei neste repositorio, os meus primeiros codigos de portugol ensinados no bootcamp!
+Colocarei neste repositório, os meus arquivos e códigos cujo for aprendendo!
