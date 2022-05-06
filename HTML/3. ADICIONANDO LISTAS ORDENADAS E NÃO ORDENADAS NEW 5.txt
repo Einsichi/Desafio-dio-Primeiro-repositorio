@@ -1,0 +1,23 @@
+Lista não ordenada
+
+<ul>
+
+Item 1
+Item 2
+
+</ul>
+
+
+
+Lista ordenada
+
+<ol>
+
+1. Item 1
+2. Item 3
+
+</ol>
+
+
+<li> </li>      //É o objeto dessa lista         
+

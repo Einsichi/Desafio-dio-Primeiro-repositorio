@@ -1,0 +1,24 @@
+Para referenciar ao endereço do arquivo CSS
+
+# Significa o id
+
+. Significa a class
+
+
+
+
+
+
+<link rel="stylesheet" href=style.css">    // "href= style.css" é o caminho onde fica o arquivo .CSS
+
+
+id é unico na pagina:
+
+
+<h1 id = "title"> mateus fernandes </h1>       // "title" virou um objeto que altera a aparencia
+
+
+class pode muitas:
+
+<h2 class = "subtitle"> Post  </h2>		//"subtitle" é a mesma coisa					
+

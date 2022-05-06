@@ -1,0 +1,21 @@
+Textos:
+
+<h1> Titulo da pagina</h1>
+
+<h2> Titulo de seção </h2>
+
+<h3> Titulo de artigos<h3>
+
+<p> Conteudo do artigo </p> 
+
+
+
+links:
+
+<a> link </a>
+
+<a href="link de algum site"> NOME DO SITE  </a>
+
+<a href="mailto:EMAIL">   E-mail   </a>			// para abrir o aplicativo de email do usuario
+
+<a target="_black"> link </a>     			//Aqui diz para abrir o link em uma nova aba

@@ -1,0 +1,5 @@
+<img>
+
+<img src="ENDEREÇOdaIMAGEM/NomeDaImagem.jpg">
+
+<img alt="Descrição da imagens caso ela falhe em carregar no site"> 
