@@ -1,0 +1,27 @@
+Como manipular erros
+
+new Error(message, fileName, LineNumber)
+
+//todos os paramentros são opcionais
+
+Criar uma constante, dar um nome para o erro e criar uma nova instancia "new error"
+
+exemplo:
+
+const MeuErro = new Error ('Mensagem Invalida');
+
+throw MeuErro;
+
+
+
+Podemos dar nomes ao erros:
+
+Eu pego o objeto "MeuErro", dou um ".name" ficando assim "MeuErro.name"
+e completo com "= 'InvalidMessage';
+
+Exemplo:
+
+const MeuErro = new Error('Mensagem Invalida');
+MeuErro.name = 'invalidMessage';
+
+throw MeuErro;

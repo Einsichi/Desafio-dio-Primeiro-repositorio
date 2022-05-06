@@ -1,0 +1,47 @@
+Tratando os erros
+
+Throw
+
+Quando usando para retornar alguma informação ele retorna o comportamento
+do console
+
+return
+
+Quando usado o return para retornar alguma informação, ele retorna somente
+a frase descrita pelo usuario.
+
+
+Exemplo em codigo
+
+return:
+
+if(!string) return "String invalida";
+RETORNA-RÁ SOMENTE O A STRING
+
+throw:
+
+if(!string) throw "String invalida";
+RETORNA-RÁ O COMPORTAMENTE DO CODIGO NO TERMINAL
+
+
+
+
+
+Declaração do try...catch
+
+Function tryCatchExemplo(string){
+try{
+return verificaPalindromo(string)
+}
+catch(e){
+throw e;
+}
+finally{
+console.log('A string enviada foi: ' + string);
+}
+}
+tryCatchExemplo('ala');
+
+
+
+

@@ -1,0 +1,10 @@
+Atividade 1.
+
+1. Crie uma função getaDmins que recebe um Map.
+2. Crie um Map e popule-o com nomes de usuarios e seus papeis no sistema.
+3. Dentro de getaDmins, utilize o loop for....of para retornar uma lista com o os nomes dos usuarios
+que são administradores.
+
+Atividade 2
+
+Dado o array [30, 30, 40, 5, 223, 2049, 3034, 5], retorne outro array apenas com valores unicos.

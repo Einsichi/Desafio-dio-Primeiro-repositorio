@@ -1,0 +1,51 @@
+Map
+
+Metodos para Adicionar, ler e deletar:
+
+método:
+
+const myMap = new Map()
+
+
+Adicionar::: 
+
+myMap.set('apple' , 'fruit');
+vai retornar isso: --> //Map(1) {"apple" -> "fruit"}
+onde apple é a chave e o valor é fruit.
+
+Checar o valor:::
+
+myMap.get('apple');
+vai retornar isso: --> //"fruit"
+onde ele vai retornar o valor de fruit
+
+Deletar:
+
+myMap.delete("apple")
+vai apagar o valor dentro de apple
+
+E se tentar checar o valor de apple depois disso
+ele retornará undefined pois o mesmo foi apagado.
+
+
+Set
+
+Metodos Adicionar, ler e deletar:
+
+const mySet = new Set();
+
+Para ver se tem algum valor dentro do set, utiliza-se o .has e para deletar, utilizamos o .delete
+
+mySet.add(1);
+mySet.add(5);
+
+mySet.has(1);
+//true
+
+mySet.has(3);
+//false
+
+meuSet.delete(5);
+
+
+
