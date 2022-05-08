@@ -1,0 +1,39 @@
+APIs
+
+Aplication programming interface
+
+É uma forma de intermediar os resultados do back-end com o que é apresentado no front-end. Acessadas por meio de URL.
+
+JSON: JavaScript Object Notation
+ APIs devem ter seus dados tratados.
+
+
+Metodo fetch::
+
+fetch(url, options)
+	.then(response => response.json())
+	.then(json => console.log(json))
+
+fetch: retorna uma Promise 
+.then: faz encadeamento
+e sempre converter a resposta para .json
+e quando for utilizar o fetch, é necessario utilizar o awaite
+
+exemplo1:
+
+fetch('https:://endereco-api.com/',{
+method: 'GET',
+cache: 'no-cache',
+})
+.then(response => response.json())
+.then(json => console.log(json))
+
+exemplo2:
+
+fetch('https:://endereco-api.com/',{
+method: 'POST',			//POST é quando vc manda dados para serem gravados no banco de dados
+cache: 'no-cache',
+body: JSON.stringify(data)	// depois converter de json para uma string
+})
+.then(response => response.json())
+.then(json => console.log(json))

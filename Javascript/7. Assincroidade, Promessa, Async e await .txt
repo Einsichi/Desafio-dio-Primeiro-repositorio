@@ -1,0 +1,79 @@
+Assinconicidade:
+
+Synchronous faz uma coisa de cada vez.
+Asynchronous faz coisas ao mesmo tempo.
+
+Promises:
+
+E um objeto de processamento assíncorno.
+Seu valor e desconhecido, então pode ser
+revogada ou regeitada
+
+tem 3 estados
+
+1) Pendente
+2) Completada
+3) Rejeitada
+
+Estrutura:
+
+const myPromise = new Promise ((Resolve, reject) => {window.setTimeout(()=>{
+	resolve(console.log('Resolvida!));
+	}, 2000);     // apos 2s, retornará o valor
+});
+
+
+extra:
+
+Encadeando chamadas:
+
+await myPromise					//.then é o que sera feito depois caso seja bem resolvida a promessa
+	.then((result) => result + ' passando pelo then')
+	.then((result) => result + ' e agora acabou')
+	.catch((err) => console.log(err.message));		//err significa erro. essa linha capitura o resultado caso seja um erro
+
+await
+
+sempre que você quiser o resultado da sua promise, deve-se colocar o await!
+
+exemplo:
+
+async function resolvePremise(){
+const myPromise = new Promise ((Resolve, reject) => {window.setTimeout(()=>{
+	resolve('Resolvida');
+	}, 3000);   
+});
+const resolved = await myPromise	// essa parte do codigo so será executada uma vez que a promise seja cumprida
+	.then((result) => result + ' passando pelo then')
+	.then((result) => result + ' e agora acabou')
+	.catch((err) => console.log(err.message));
+
+return resolved;
+}
+
+
+
+
+
+Utilizando try..catch
+
+async function resolvePremise(){
+const myPromise = new Promise ((Resolve, reject) => {window.setTimeout(()=>{
+	resolve('Resolvida');
+	}, 3000);   
+});
+
+ler result;
+
+try{
+
+result = await myPromise
+	.then((result) => result + ' passando pelo then')
+	.then((result) => result + ' e agora acabou')	
+} catch(err){
+
+result = err.message;
+}
+
+return result;
+}
