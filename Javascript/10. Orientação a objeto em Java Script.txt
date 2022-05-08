@@ -1,0 +1,54 @@
+Protopipos:
+
+São o esqueleto de todos os objetos.
+Os objetos vão herdas as propriedades e metodos do Object.prototype (prototipo)
+
+Classes
+
+Classes em javasript não existem nativamente.
+Todas as classes são objetos e a herança se da por protótipo
+
+Classes sempre tem um construtor.
+
+construtor:
+
+class Animal{
+constructor (type = 'animal'){
+this.type = type
+}
+}
+
+getter e setter
+
+get::
+
+//retorna o tipo (type)
+
+get type(){
+return this._type
+}
+
+set::
+
+//determinar que o tipo tem outro valor
+
+set type(val){		 
+this._type = val.toUpperCase()
+}
+
+super()
+
+//Utiliza as propriedades do construtor que tem na classe pai
+
+class Cat extends Animal{
+constructor(){
+}
+
+makeSound(){				//makeSound está dentro da classe pai, mas posso ainda colocar metodos diferentes nela
+super.makeSound()
+console.log('Meow!')
+}
+}
+
+let b= new Cat()
+console.log(b.type) //CAT

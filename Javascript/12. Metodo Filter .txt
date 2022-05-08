@@ -1,0 +1,19 @@
+filter
+
+Cria um novoa arry
+Não vai modificar o array original
+So vai retornar os itens que passaram no filtro
+
+Exemplo:
+
+array.filter(callback, thisArgs)
+
+Callback: função a ser executada em cada elemento
+thisArg (opcional): Para variar o objeto a qual a função se refere
+
+Exemplo:
+
+const frutas = ['furtas fuji', 'maçã verde', 'laranja', 'abacaxi'];
+furtas.filter((fruta) => fruta.includes('maçã'))
+			// função de callback apartir de "=>" || como o objeto e do tipo string, colocamos o ".includes" para ser lido.
+// retorno: ['maçã fuji', 'maçã verde'];

@@ -1,0 +1,3 @@
+Reduce
+
+Some todos os números de um array

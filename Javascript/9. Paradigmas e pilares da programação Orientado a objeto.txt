@@ -1,0 +1,27 @@
+Imperativo e declarativo
+
+Orietado a objeto:
+
+Imperativo é como você fará
+Desclarativo é o que fará
+
+Programas são objetos cujo possuem propriedades.
+
+Tem 4 pilares que são:
+
+Herança:
+O objeto herda propriedades e metodos do pai.
+
+Polimorfismo:
+Objetos herdam a mesma classe que o pai mas se comportão de maneira diferente quando invocamos o seu metodo
+
+
+Escapsulamento:
+Cada classe tem propriedades e métodos independentes do restante do codigo.
+
+Abstração:
+Tornar um problema completo em um problema simples.
+Isolando uma ideia e a desmontando
+Simplificar
+
+

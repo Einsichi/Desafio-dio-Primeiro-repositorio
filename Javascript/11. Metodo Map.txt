@@ -1,0 +1,37 @@
+Map	(mapeamento)
+
+Cria um novo array
+Não modifica o array original
+Realiza as operações em ordem
+
+exemplo
+
+array.map(callback, thisArg)
+
+callback(item, index, array)
+
+Callback: função a ser executada em cada elemento
+thisArg (opcional) valor de 'this' dentro da função de callback
+
+Map vc forEach  (comparação pois são semelhantes)
+
+//Usando map
+
+const array  = [1, 2, 3, 4, 5];
+
+array.map((item) => item * 2));  //retorno: [2, 4, 6, 8, 10];
+
+// "=>" isso é a mesma coisa que passar uma função
+
+
+//usando forEach
+
+const array  = [1, 2, 3, 4, 5];
+array.forEach((item) => item * 2)); //retorno: undefined
+
+
+
+Diferenças principais:
+
+valor retornado
+considerar se precisará de um array auxiliar para continuar as operações
